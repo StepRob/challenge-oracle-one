@@ -1,8 +1,7 @@
 # challenge-oracle-one
 
-#Descripción
+# Descripción
 Esta en una aplicación que encripta textos, así podrás intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
-
 Las "llaves" de encriptación que utilizadas son las siguientes:
 
 La letra "e" es convertida para "enter"
