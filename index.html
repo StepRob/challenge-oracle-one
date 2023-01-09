@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+
+  <title>Challenge Oracle One</title>
+</head>
+
+<body>
+
+  <div id="toastAlert">
+  </div>
+
+  <main class="main container grid">
+
+    <section class="section grid">
+      <div class="logo">
+        <img src="./Img/logo.svg" class="logo__img" />
+      </div>
+
+      <div class="text">
+        <div class="input">
+          <textarea rows="11" class="input__text" id="input__text" placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+
+        <div class="info">
+          <img src="./Img/icon.svg" class="info__img" />
+          <span class="info__text">Solo letras minúsculas y sin acentos</span>
+        </div>
+
+        <div class="buttons grid">
+          <button class="button__encrypt" id="button__encrypt">Encriptar</button>
+          <button class="button__decrypt" id="button__decrypt">Desencriptar</button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="message">
+      <div class="message__container" id="message__container">
+        <img src="./Img/user.svg" alt="message-image" class="messaje__img" />
+
+        <div class="message__data">
+          <h2 class="message__title">Ningún mensaje fue encontrado</h2>
+          <span class="message__subtitle">Ingresa el texto que desees encriptar o desencriptar</span>
+        </div>
+      </div>
+
+      <div class="message__crypt" id="message__crypt">
+        <textarea rows="14" class="input__text--encrypt" id="input__text--encrypt"></textarea>
+
+        <button class="button__copy" id="button__copy">Copiar</button>
+      </div>
+
+    </aside>
+  </main>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
