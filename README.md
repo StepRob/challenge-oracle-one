@@ -9,3 +9,10 @@ La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat"
+# Uso
+- Solo permite el ingreso de letras minúsculas
+- No deben ser utilizados letras con acentos ni caracteres especiales
+- Devuelve una palabra encriptada para su versión original.
+Por ejemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
